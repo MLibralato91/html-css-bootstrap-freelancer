@@ -26,3 +26,6 @@
     background-color: var(--light-gray);
     color: var(--white);
 }
+#intro img{
+    width: 300px;
+}
