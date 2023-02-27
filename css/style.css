@@ -8,24 +8,21 @@
 
 }
 
-header{
+#nav-bar,
+#bot-foot{
     background-color: var(--dark-gray);
+    color: var(--white);
 }
-#intro{
-    background-color: var(--aqua);
-}
-#portfolio{
-    background-color: var(--white);
-}
+#intro,
 #about{
     background-color: var(--aqua);
+    color: var(--white);
 }
+#portfolio,
 #contact{
     background-color: var(--white);
 }
 #top-foot{
     background-color: var(--light-gray);
-}
-#bot-foot{
-    background-color: var(--dark-gray);
+    color: var(--white);
 }
