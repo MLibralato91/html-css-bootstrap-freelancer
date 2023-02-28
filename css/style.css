@@ -82,3 +82,7 @@ header h3{
 .navbar-toggler-icon span{
     filter: invert(1);
 }      
+#top-foot a{
+    color: var(--aqua);
+    text-decoration: none;
+}
