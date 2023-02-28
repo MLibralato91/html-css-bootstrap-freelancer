@@ -5,37 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Bootstrap Freelancer</title>
 </head>
 
 <body>
     <header>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3 class="text-uppercase">Start Bootstrap</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav"
+                    aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-  
+
 
     <main>
         <section id="intro">
             <div class="container py-5 text-center">
                 <div class="row">
                     <div class="col-12">
-                            <img class="img-fluid py-4"src="./img/avatar.svg" alt="">
+                        <img class="img-fluid py-4" src="./img/avatar.svg" alt="">
                         <h1 class="text-uppercase display-6 fw-semibold">Start bootstrap</h1>
                         <div class="container d-flex align-items-center justify-content-center py-4">
                             <div class="col-2 p-1 bg-white w"></div>
@@ -54,12 +67,12 @@
                 <i class="fs-2 px-3 fa-solid fa-star"></i>
                 <div class="col-2 p-1 bg-black"></div>
             </div>
-            <div class="container">    
+            <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-4 pb-4">
-                        <div class="img-container">
-                            <img class="img-fluid rounded mx-auto d-block" src="./img/cabin.png" alt="">
-                        </div>    
+                        <div class="img-container rounded">
+                            <img class="img-fluid  mx-auto d-block" src="./img/cabin.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 pb-4">
                         <img class="img-fluid rounded mx-auto d-block" src="./img/cake.png" alt="">
@@ -77,7 +90,7 @@
                         <img class="img-fluid rounded mx-auto d-block" src="./img/submarine.png" alt="">
                     </div>
                 </div>
-            </div>    
+            </div>
         </section>
         <section id="about" class="text-center py-5">
             <h2 class="text-uppercase py-3 display-6 fw-semibold">about</h2>
@@ -89,14 +102,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <p class="text-start">Freelencer is a free bootstra them created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                        <p class="text-start">Freelencer is a free bootstra them created by Start Bootstrap. The
+                            download includes the complete source files including HTML, CSS, and JavaScript as well as
+                            optional LESS stylesheets for easy customization.</p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <p class="text-start">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share yuor projects, this template is the perfect starting point!</p>
+                        <p class="text-start">Whether you're a student looking to showcase your work, a professional
+                            looking to attract clients, or a graphic artist looking to share yuor projects, this
+                            template is the perfect starting point!</p>
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-primary text-white border-white"><i class="fa-solid fa-download"></i> Download</button>
+            <button type="button" class="btn btn-outline-primary text-white border-white"><i
+                    class="fa-solid fa-download"></i> Download</button>
         </section>
         <section id="contact" class="text-center py-5">
             <h2 class="text-uppercase display-6 fw-semibold">Contact me</h2>
@@ -106,7 +124,7 @@
                 <div class="col-2 p-1 bg-black "></div>
             </div>
             <div class="container">
-                
+
             </div>
         </section>
     </main>
@@ -121,19 +139,28 @@
                     <div class="col-12 col-md-4 pb-5">
                         <h5 class="text-uppercase">Around the web</h5>
                         <div class="d-flex justify-content-evenly py-3">
-                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-facebook-f"></i></div>
-                            <div class="border rounded-circle p-3 position-relative" ><i class=" position-absolute top-50 start-50 translate-middle fa-brands fa-google-plus-g"></i></div>
-                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-twitter"></i></div>
-                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-linkedin-in"></i></div>
-                          
+                            <div class="border rounded-circle p-3 position-relative"><i
+                                    class="position-absolute top-50 start-50 translate-middle fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="border rounded-circle p-3 position-relative"><i
+                                    class=" position-absolute top-50 start-50 translate-middle fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="border rounded-circle p-3 position-relative"><i
+                                    class="position-absolute top-50 start-50 translate-middle fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="border rounded-circle p-3 position-relative"><i
+                                    class="position-absolute top-50 start-50 translate-middle fa-brands fa-linkedin-in"></i>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-12 col-md-4 ">
                         <h5 class="text-uppercase">About Freelancer</h5>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start
+                                Bootstrap</a>.</p>
                     </div>
-                 
-                </div>
+
+            </div>
             </div>
         </section>
         <section id="bot-foot">
@@ -142,8 +169,10 @@
             </div>
         </section>
     </footer>
-    
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>
