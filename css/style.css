@@ -59,6 +59,12 @@ header{
     cursor: pointer;
     overflow: hidden;
 }
+header h3{
+    color: var(--white);
+}
+#mynav a{
+    color: var(--white);
+}
 #mynav a:hover{
     color: var(--aqua);
 }
@@ -66,3 +72,13 @@ header{
     background-color: var(--aqua);
     border: 1 px solid var(--aqua);
 }
+#about .btn:hover{
+    background-color: var(--aqua);
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+.navbar-toggler-icon,
+.navbar-toggler-icon span{
+    filter: invert(1);
+}      
