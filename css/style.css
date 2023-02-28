@@ -33,3 +33,28 @@ header{
 #intro img{
     width: 300px;
 }
+#intro h1{
+    font-size: 3rem;
+}
+.img-container::after{
+    display: flex;
+    content: '+';
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 128, 96, 0.5);
+    color: white;
+    opacity: 0;
+}
+.img-container:hover::after{
+    opacity: 1;
+}
+.img-container{
+    position: relative;
+    cursor: pointer;
+}
