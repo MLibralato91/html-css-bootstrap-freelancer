@@ -12,9 +12,24 @@
 </head>
 
 <body>
-    <header id="nav-bar">
-        nav bar
+    <header>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
     </header>
+  
+
     <main>
         <section id="intro">
             <div class="container py-5 text-center">
@@ -103,11 +118,12 @@
                     </div>
                     <div class="col-12 col-md-4 pb-5">
                         <h5 class="text-uppercase">Around the web</h5>
-                        <div>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-google-plus-g"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                        <div class="d-flex justify-content-evenly py-3">
+                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-facebook-f"></i></div>
+                            <div class="border rounded-circle p-3 position-relative" ><i class=" position-absolute top-50 start-50 translate-middle fa-brands fa-google-plus-g"></i></div>
+                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-twitter"></i></div>
+                            <div class="border rounded-circle p-3 position-relative" ><i class="position-absolute top-50 start-50 translate-middle fa-brands fa-linkedin-in"></i></div>
+                          
                         </div>
                     </div>
                     <div class="col-12 col-md-4 ">
