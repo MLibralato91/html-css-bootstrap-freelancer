@@ -62,3 +62,7 @@ header{
 #mynav a:hover{
     color: var(--aqua);
 }
+#contact .btn{
+    background-color: var(--aqua);
+    border: 1 px solid var(--aqua);
+}
