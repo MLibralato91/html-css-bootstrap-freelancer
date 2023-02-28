@@ -116,31 +116,38 @@
             <button type="button" class="btn btn-outline-primary text-white border-white"><i
                     class="fa-solid fa-download"></i> Download</button>
         </section>
-        <section id="contact" class="text-center py-5">
-            <h2 class="text-uppercase display-6 fw-semibold">Contact me</h2>
-            <div class="container d-flex align-items-center justify-content-center py-4">
-                <div class="col-2 p-1 bg-black"></div>
-                <i class="fs-2 px-3 fa-solid fa-star"></i>
-                <div class="col-2 p-1 bg-black "></div>
+        <section id="contact">
+            <div class="container text-center py-5">   
+                <h2 class="text-uppercase display-6 fw-semibold">Contact me</h2>
+                <div class="container d-flex align-items-center justify-content-center py-4">
+                    <div class="col-2 p-1 bg-black"></div>
+                    <i class="fs-2 px-3 fa-solid fa-star"></i>
+                    <div class="col-2 p-1 bg-black "></div>
+                </div>
+            </div> 
+            <div class="container">
+                
+                    <div class="mb-3">
+                        <label for="user-name" class="form-label">Name</label>
+                        <input type="text" class="form-control border-0 border-bottom" id="user-name" name="user-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="user-email" class="form-label">Email address</label>
+                        <input type="email" class="form-control border-0 border-bottom" id="user-email" name="user-email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="user-number" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control border-0 border-bottom" id="user-number" name="user-number" required>
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="message" class="form-label ">Message</label>
+                        <textarea class="form-control border-0 border-bottom" name="message" id="message" cols="30" rows="10">
+
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                
             </div>
-      
-                <form>
-                    <div class="mb-3">
-                      <label for="user-email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="user-email" aria-describedby="emailHelp" name="user-email">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="user-password" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="user-password" name="user-password">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="checked-now">
-                      <label class="form-check-label" for="checked-now">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
- 
         </section>
     </main>
     <footer>
